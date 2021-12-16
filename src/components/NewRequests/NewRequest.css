@@ -1,0 +1,17 @@
+.new-request {
+	padding: 2rem;
+	width: 70%;
+	margin-bottom: 5rem;
+}
+
+@media screen and (max-width: 860px) {
+	.new-request {
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 630px) {
+	.new-request {
+		padding: 1rem;
+	}
+}

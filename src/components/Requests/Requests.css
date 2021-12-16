@@ -1,0 +1,10 @@
+.requests {
+	padding: 2rem 2rem 0.2rem;
+	width: 70%;
+}
+
+@media screen and (max-width: 860px) {
+	.requests {
+		width: 80%;
+	}
+}

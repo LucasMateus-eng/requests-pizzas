@@ -1,0 +1,53 @@
+.request-item__date {
+	background-color: var(--color-secondary-main);
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	border: none;
+	border-radius: 1.8rem;
+
+	padding: 1.25rem 0.8rem;
+}
+
+.request-item__date span:not(:last-child) {
+	margin-bottom: 0.25rem;
+}
+
+.request-item__date-month,
+.request-item__date-day,
+.request-item__date-year {
+	font-weight: 700;
+	color: var(--color-primary-main);
+	text-align: center;
+	word-wrap: break-word;
+}
+
+.request-item__date-month {
+	font-size: 2.15rem;
+	text-transform: capitalize;
+}
+
+.request-item__date-day {
+	font-size: 2.15rem;
+}
+
+.request-item__date-year {
+	font-size: 1.5rem;
+}
+
+@media screen and (max-width: 860px) {
+	.request-item__date-month,
+	.request-item__date-day {
+		font-size: 2rem;
+	}
+}
+
+@media screen and (max-width: 630px) {
+	.request-item__date-month,
+	.request-item__date-day {
+		font-size: 2.15rem;
+	}
+}
